@@ -1,2 +1,5 @@
 ﻿  entry.cpp
-  window.vcxproj -> C:\Users\ktc\Downloads\Window-main\window\x64\Debug\window.exe
+  ソース.cpp
+  コードを生成中...
+  LINK : 前回のインクリメンタル リンクで C:\Users\ktc\Desktop\window\Window-main\window\x64\Debug\window.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+  window.vcxproj -> C:\Users\ktc\Desktop\window\Window-main\window\x64\Debug\window.exe
