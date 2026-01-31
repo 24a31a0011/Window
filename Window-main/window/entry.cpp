@@ -1,6 +1,9 @@
 //ウィンドウアプリケーション
 
-#include "../window/window.h"
+#include "window.h"
+
+#include "device.h"
+
 #include <cassert>
 
 namespace {

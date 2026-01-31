@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -129,10 +129,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="command_queu.cpp" />
+    <ClCompile Include="device.cpp" />
+    <ClCompile Include="DXGI.cpp" />
     <ClCompile Include="entry.cpp" />
-    <ClCompile Include="ソース.cpp" />
+    <ClCompile Include="swap_chain.cpp" />
+    <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="command_queu.h" />
+    <ClInclude Include="device.h" />
+    <ClInclude Include="DXGI.h" />
+    <ClInclude Include="swap_chain.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
